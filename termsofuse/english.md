@@ -126,7 +126,7 @@ You can use our product within the following on the assumption that it does not 
 		<td><b>Goods</b></td>
 		<td>OK</td>
 		<td>Contact me</td>
-		<td>OK (C)</td>
+		<td>OK (C/A)</td>
 		<td>Contact me</td>
 	</tr>
 	<tr>
