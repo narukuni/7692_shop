@@ -1,0 +1,346 @@
+/*リセット*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+*, *:before, *:after {
+-webkit-box-sizing: inherit;
+box-sizing: inherit;
+}
+
+/*全体*/
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;/*16px→10px*/
+}
+body {
+    background: radial-gradient(#F2B9A1, #EA6264);
+/*background-color: #EFf0F6;*/
+
+  color: #292936;
+  font-size: 1.6rem;
+  font-family: 'Lexend Deca', "Helvetica Neue",
+   sans-serif, "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Hiragino Sans";
+}
+html, body, #wrap {
+  height: 100%;
+}
+
+a:link,:visited { color: #0066c0; }
+.i__left { margin-right: 0.5rem; }
+.i__right { margin-left: 0.5rem; }
+p { margin: 0 0 1rem 0; }
+p:last-child { margin: 0; }
+small { font-size: 0.6em}
+ol, ul {
+  padding: 0 0 1rem 0;
+  list-style-position: inside;
+}
+ol ul {
+  margin-left: 2rem;
+}
+/*見出し*/
+@media screen and (min-width:769px) {
+/*pc用のcssを記述*/
+  h1, h2, h3 {
+    text-align: left;
+  }
+}
+@media screen and (max-width:768px) {
+/*タブレット以下のcssを記述*/
+  h1, h2, h3 {
+    text-align: center;
+  }
+}
+h1 { font-size: 2.8rem; }
+h1 small { margin-left: 1em;}
+h2 {
+  font-size: 2.4rem;
+  margin-bottom: 4rem;
+}
+h3 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+.sectionTitleH2--sub {
+  margin-top: 0.6rem;
+  font-size: 1.6rem;
+}
+.sectionTitleH3--sub {
+  margin-top: 0.4rem;
+  font-size: 1.6rem;
+}
+
+/*本文*/
+.Supplement {
+  font-size: 1.2rem;
+}
+.noneDotList {
+list-style: none;
+}
+
+
+/*レイアウト*/
+header {
+  width: 100%;
+  padding: 1rem 0;
+  text-align: center;
+  background-color: #222;
+}
+.sectionWrapper {
+  width: 100%;
+  padding: 6rem 0;
+}
+.Contents {
+  max-width: 990px;
+  margin: auto;
+  padding: 0 2rem;
+}
+.FlexContainer {
+  display: flex;
+}
+
+/*あいさつ*/
+.Welcome {
+  text-align: center;
+  padding-bottom: 8rem;
+  background-color: #222;
+  color: #fff;
+}
+.Welcome h2 {
+  margin: 0;
+  text-align: center;
+}
+.whitespace {
+  display: inline-block;
+}
+
+/*利用規約*/
+.TermsOfUse {
+  text-align: center;
+  background-color: #EFf0F6;
+}
+.TermsOfUse__box {
+  max-width: 720px;
+  margin: -8rem auto 0;
+  padding: 4rem 4rem 5rem 4rem;
+  background-color: #fff;
+}
+.TermsOfUse h2 {
+  text-align: center;
+}
+.NoticeList {
+  display: inline-block;
+  margin: auto;
+  text-align: left;
+  font-size: 1.2rem;
+  list-style-type: none;
+}
+.btn, a.btn, button.btn {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.2;
+  position: relative;
+  display: inline-block;
+  margin: 16px;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #333;
+  border-radius: 0.5rem;
+}
+a.btn--radius {
+ border-radius: 100vh;
+}
+
+.TermsOfUse__Link {
+margin-bottom: 2rem;
+}
+.btn--TermsOfUse, a.btn--TermsOfUse {
+  color: #fff;
+  background-color: #222;
+
+}
+.btn--TermsOfUse span {
+  display: box;
+  font-size: 1.2rem;
+}
+.btn--TermsOfUse:hover, a.btn--TermsOfUse:hover {
+  color: #fff;
+  background-color: #888;
+  /*box-shadow: 0 0.1rem 2rem rgba(52,204,153,.9);*/
+}
+
+
+/*使い方*/
+.HowToUse {
+  background-color: #fff;
+}
+.HowToUse__img {
+  text-align: center;
+}
+.HowToUse .Supplement {
+  margin-bottom: 2rem;
+}
+.HowToUse__ic {
+  color: 888888
+}
+@media screen and (min-width:769px) {
+/*pc用のcssを記述*/
+  .HowToUseContainer {
+    display: flex;
+  }
+  .HowToUse__img {
+    width: 50%;
+    margin-right: 4rem;
+    background-image: url("");
+  }
+  .HowToUse__txt {
+    width: 50%;
+  }
+}
+@media screen and (max-width:768px) {
+/*タブレット以下のcssを記述*/
+  .HowToUseContainer {
+    display: block;
+  }
+  .HowToUse__img {
+    width: 100%;
+    background-image: url("");
+  }
+  .HowToUse__txt {
+    width: 100%;
+  }
+}
+
+
+/*画像右レイアウト*/
+.Right {
+  background-color: #fff;
+}
+@media screen and (min-width:769px) {
+/*pc用のcssを記述*/
+  .RightContainer {
+    display: flex;
+  }
+  .Right__txt {
+    width: 50%;
+    margin-right: 4rem;
+  }
+  .Right__img {
+    width: 50%;
+    background-image: url("");
+    background-color: #f0f0f5;
+  }
+}
+@media screen and (max-width:768px) {
+/*タブレット以下のcssを記述*/
+  .defectReportContainer {
+    display: block;
+  }
+  .defectReport__img {
+    width: 100%;
+    background-image: url("");
+  }
+  .defectReport__txt {
+    width: 100%;
+  }
+}
+
+
+/*ショップについて*/
+.aboutShop {
+  text-align: center;
+  background-color: #EFf0F6;
+  color: #222;
+}
+.aboutShop h2,h3 {
+  text-align: center;
+}
+.FlexContainer__card {
+ padding: 3rem;
+ font-size: 1.4rem;
+ color: #222;
+}
+.FlexContainer__card h3 {
+  margin-top: 2rem;
+}
+.FlexContainer__card-txt {
+  text-align: left;
+}
+.FlexContainer__card-ic {
+  color: #33CC99;
+}
+@media screen and (min-width:769px) {
+/*pc用のcssを記述*/
+  .FlexContainer__card {
+    flex: 1;
+    margin-right: 2rem;
+    background-color: #fff;
+  }
+  .FlexContainer__card:last-child {
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width:768px) {
+/*タブレット以下のcssを記述*/
+  .aboutShop .FlexContainer {
+    display: block;
+  }
+  .FlexContainer__card {
+    margin-bottom: 2rem;
+    background-color: #fff;
+  }
+}
+
+/* お問い合わせ */
+.Contact {
+  background-color: #fff;
+  padding-bottom: 6rem;
+}
+.Contact ul {
+  list-style: none;
+}
+.DefectReport {
+  padding-top: 2rem;
+}
+
+
+/*フッター*/
+footer {
+  width: 100%;
+  padding: 2rem 0;
+  text-align: center;
+  background-color: #222;
+  color: #fff;
+}
+.footer__contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 990px;
+  margin: auto;
+  padding: 0 2rem;
+}
+.footer__contents img {
+  margin-right: 20px
+}
+.footer__contents p {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+.footer__contents a:link, footer a:visited {
+  color: #fff;
+}
