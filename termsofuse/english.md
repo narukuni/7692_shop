@@ -90,7 +90,7 @@ You can use our product within the following on the assumption that it does not 
 	</tr>
 	<tr>
 		<td>1*</td>
-		<td><b>Avatars</b><br>(without posting or distribution)</td>
+		<td><b>Avatars</b><br>(without posting or streaming)</td>
 		<td>OK</td>
 		<td>OK</td>
 		<td>OK</td>
@@ -98,7 +98,7 @@ You can use our product within the following on the assumption that it does not 
 	</tr>
 	<tr >
 		<td>2</td>
-		<td><b>Avatars</b><br>(with posting and distribution)</td>
+		<td><b>Avatars</b><br>(with posting and streaming)</td>
 		<td>OK</td>
 		<td>OK</td>
 		<td>OK (C)</td>
@@ -217,6 +217,7 @@ Other inquiries are also accepted above.<br>
 
 ## Disclaimers
 
+- If there is a discrepancy between the English version and the Japanese version, the Japanese version will apply.
 - I do not guarantee that my products always follow the updates of VRoid Studio (I support as long as possible).
 - You may use the products for models other than VRoid, but I do not guarantee if it works.
 - The distribution of the products may be terminated without notice. Even in that case, you can use the product you downloaded continuiously as long as you obey this terms of use.
@@ -234,8 +235,9 @@ If you have any concerns, please contact us. I may be able to help you.<br>
 <br>
 
 
-[Revised on March 7, 2021]<br>
-[Enforced on October 1, 2020]<br>
+[Revised on March 14, 2021]<br>
+[English page added on March 7, 2021]<br>
+[Japanese version enforced on October 1, 2020]<br>
 <br>
 <br>
 
